@@ -1,0 +1,26 @@
+body {
+
+    background-color: rgb(47, 47, 47) !important;
+    color: white !important;
+}
+
+nav {
+    display: flex !important;
+}
+
+.Movies {
+    display: none;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.025) !important;
+
+}
+
+.dropdown-menu {
+
+    background-color: rgb(47, 47, 47) !important;
+    
+}
+
+.dropdown-item {
+    color: white !important;
+}
+

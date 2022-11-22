@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HomePage</title>
+
+        <link rel="stylesheet" href="Stylesheet-homePage.css">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!---Bootstrap Links-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="AutoMatic-SlideShow-homepageTop.js"></script>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+
+            <div class="container-fluid">
+
+            
+                <span class="navbar-text" style="color: #FF0; font-size:xx-large">Movie Swap</span>
+             <!-- <a class="navbar-brand" href="#">Movie Swap</a> -->
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarcollapse">
+
+                <ul class="navbar-nav me-auto">
+                <!--navbar-nav ms-auto-->
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Action</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Adventure</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Comedy</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Thriller</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Production Companies</a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Paramount</a></li>
+                      <li><a class="dropdown-item" href="#">Marvel</a></li>
+                      <li><a class="dropdown-item" href="#">Universal</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <button class="btn btn-outline-warning" onclick="document.location='SignIn.html'">Login</button>
+                <!--<form class="d-flex">
+                  
+                  <button class="btn btn-outline-warning" onclick="document.location='SignIn.html'">Login</button>
+                </form>-->
+              </div>
+            </div>
+        </nav>
+
+            <div class = "container-fluid p-2 text-white mt-5">
+                <div class = "row">
+
+                    <div class = "col-md-5 p-4 text-center">
+
+                        <h2>MOVIE SWAP </h2>
+                        <br>
+
+                        <p>Buy or rent hard copy DVD's</p>
+                        <p>Get ride of those DVD's laying around and make some MONEY !!</p>
+                        <p>When you create an account you can upload your own copies and let others rent them</p>
+
+                        <button class="btn btn-outline-warning btn-lg" onclick="document.location='create_acount.html'">Creat account</button>
+                        
+                    </div>
+                    
+                    <div class = "col-md-7">
+
+                        <img src="collage.jpg" class="rounded" alt="movie collage" width=" 100%" height="80%">
+                        <!--
+                        <img class="Movies" src="dune.jpg" alt="Dune poster" width=" 100%" height="70%">
+                        <img class="Movies" src="up.jpg" alt="Dune poster" width=" 100%" height="70%">
+                        <img class="Movies" src="Dark_Knight.jpg" alt="Dune poster" width=" 100%" height="70%">
+
+
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+        
+                        </script>-->
+
+                    </div>
+                    
+
+                </div>
+            </div>
+            
+            <h1 class="display-3 text-center" style="color: #FF0;">Most popular</h1>
+
+            <div class = "container-fluid p-2 text-white mt-5">
+                <div class="row">
+                    <div class="col-md p-4">
+
+                        <img src="pulpFiction.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button class="btn btn-warning" onclick="document.location='showPulpFiction.html'">view</button>
+
+                    </div>
+
+                    <div class="col-md p-4">
+
+                        <img src="KillBill.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+
+                    <div class="col-md p-4">
+
+                        <img src="terminator.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+                    <div class="col-md p-4">
+
+                        <img src="Us.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+                    <div class="col-md p-4">
+
+                        <img src="Jaws.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md p-4">
+
+                        <img src="DisplicableMe.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+
+                    <div class="col-md p-4">
+
+                        <img src="TheDarkNightCover.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+
+                    <div class="col-md p-4">
+
+                        <img src="Grimsby.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+                    <div class="col-md p-4">
+
+                        <img src="avengers_endGame.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+                    <div class="col-md p-4">
+
+                        <img src="StepBrothers.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md p-4">
+
+                        <img src="Avatar.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+
+                    <div class="col-md p-4">
+
+                        <img src="StarWars.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+
+                    <div class="col-md p-4">
+
+                        <img src="MidSommar.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+                    <div class="col-md p-4">
+
+                        <img src="Smile.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+                    <div class="col-md p-4">
+
+                        <img src="JurassicPark.jpg" class="rounded" alt="movie collage" width=" 100%" height="90%">
+                       <br>
+                       <br>
+                        <button type="button" class="btn btn-warning">view</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

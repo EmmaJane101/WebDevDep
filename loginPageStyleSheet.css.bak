@@ -1,0 +1,33 @@
+body, html {
+  height: 100%;
+}
+.container {
+	
+  position: absolute;
+  margin: auto;
+  width: 25%;
+  padding: 16px;
+  background:rgba(0, 0, 0, 0.5);
+  opacity: .99;
+  color: rgb(247, 233, 233);
+  
+  
+}
+
+.backImage {
+  /* The image used */
+  background-image: url('C:/Users/emma_/Documents/wedDevDep/learning/loginimage.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   position: relative;
+  
+}
+body {
+  background-image: 'loginimage.jpg';
+}
